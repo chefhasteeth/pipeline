@@ -37,13 +37,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit"
     },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Chefhasteeth\\Pipeline\\PipelineServiceProvider"
-            ]
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
