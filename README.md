@@ -2,6 +2,14 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/chefhasteeth/pipeline/master/example.png" width="900" alt="Example code showcasing the Pipeline package using the with transaction method and the pipable trait"></p>
 
+## Installation
+
+Install via composer:
+
+```bash
+composer require chefhasteeth/pipeline
+```
+
 ## What are pipelines used for?
 
 A Pipeline allows you to pass data through a series of _pipes_ to perform a sequence of operations with the data. Each pipe is a callable piece of code: An invokable class, a closure, etc. Since each pipe operates on the data in isolation (the pipes don't know or care about each other), then that means you can easily compose complex workflows out of reusable actions that are also very easy to test&mdash;because they aren't interdependent.
